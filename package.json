@@ -2,19 +2,16 @@
   "name": "react-native-calendar-events-extended",
   "version": "1.0.0",
   "description": "A react native library for calendar events",
-  "keywords": [
-    "example",
-    "package",
-    "tutorial"
-  ],
   "homepage": "https://github.com/vyomGupta736/react-native-calendar-events-extended",
   "bugs": {
     "url": "https://github.com/vyomGupta736/react-native-calendar-events-extended/issues",
     "email": "vyomgupta456@gmail.com"
   },
-  "main": "index.js",
+  "main": "src",
   "scripts": {
-    "test": "mocha"
+    "format": "prettier --write \"**/*.{md,json,js,css}\"",
+    "release": "npmpub",
+    "test": "echo \"Everything is awesome!\""
   },
   "repository": {
     "type": "git",
@@ -26,5 +23,35 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "engineStrict": true
+  "devDependencies": {
+    "husky": "^4.0.0",
+    "lint-staged": "^10.0.0",
+    "npmpub": "^5.0.0",
+    "prettier": "^2.0.0"
+  },
+  "files": [
+    "android/",
+    "ios/",
+    "src/",
+    "package.json",
+    "RNCalendarEvents.podspec"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "eventkit",
+    "reminders",
+    "calendar-events"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.60.0"
+  },
+  "types": "src/index.d.ts"
 }
