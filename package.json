@@ -1,0 +1,30 @@
+{
+  "name": "react-native-calendar-events-extended",
+  "version": "1.0.0",
+  "description": "A react native library for calendar events",
+  "keywords": [
+    "example",
+    "package",
+    "tutorial"
+  ],
+  "homepage": "https://github.com/vyomGupta736/react-native-calendar-events-extended",
+  "bugs": {
+    "url": "https://github.com/vyomGupta736/react-native-calendar-events-extended/issues",
+    "email": "vyomgupta456@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vyomGupta736/react-native-calendar-events-extended.git"
+  },
+  "author": "Vyom Gupta <vyomgupta456@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true
+}
